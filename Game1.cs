@@ -19,6 +19,7 @@ public class Game1 : Game
     protected override void Initialize()
     {
         // TODO: Add your initialization logic here
+        // This is where you would typically set up game variables, load settings, etc.
 
         base.Initialize();
     }
@@ -28,6 +29,9 @@ public class Game1 : Game
         _spriteBatch = new SpriteBatch(GraphicsDevice);
 
         // TODO: use this.Content to load your game content here
+        // This is where you would typically load textures, sounds, etc.
+
+
     }
 
     protected override void Update(GameTime gameTime)
@@ -36,6 +40,9 @@ public class Game1 : Game
             Exit();
 
         // TODO: Add your update logic here
+        // This is where you would typically update game objects, handle input, etc.
+
+
 
         base.Update(gameTime);
     }
@@ -45,6 +52,8 @@ public class Game1 : Game
         GraphicsDevice.Clear(Color.CornflowerBlue);
 
         // TODO: Add your drawing code here
+        // This is where you would typically draw your game objects
+
 
         base.Draw(gameTime);
     }
